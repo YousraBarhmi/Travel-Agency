@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="containe">
+   
+    <header>
+        <nav >
+         <div class="logo">
+            <a href="#"><img class="logo-img" src="images/logo.png" alt="mylogo"></a>
+        </div>
+            <ul class="menu">
+                <li><a href="#Accueil">Accueil</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#Circuits">Circuits</a></li>
+                <li><a href="#Contacts">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="Accueil" style="background-image: url('images/img (2).jpg');">
+        <h1>Explorez le monde avec nous</h1>
+        <p>Le site Voyage vous permet de faire le tour du monde à des prix uniques!</p>
+        <button class="bouton">Un conseiller est en ligne</button>
+    </div>
+    <section id="destinations">
+        <div class="dest-title" style="margin: 3% 0;">
+            <div class="heading">
+                <h2>Destinations</h2>
+            </div>
+            <p style="text-align: justify; padding: 0 10%;">
+                Nos visites guidées à pied vous offrent l'opportunité de découvrir des Destinations du monde entier.
+                 Que vous rêviez de flâner dans des ruelles historiques, de vous immerger dans de nouvelles cultures ou de contempler des panoramas à couper le souffle,
+                  nos circuits vous permettent d'explorer une variété de lieux passionnants, chacun offrant son propre charme et ses découvertes uniques.
+            </p>
+        </div>
+        <div class="divider"></div>
+       <div id="slider">
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
+        <input type="radio" name="slider" id="slide4">
+        <div id="slides">
+           <div id="overflow">
+              <div class="inner">
+                 <div class="slide ">
+                        <img src="images/suisse.jpg" alt="Image 1">
+                        <div class="image-text">Suisse</div>
+                 </div>
+                 <div class="slide ">
+                       <img src="images/london.jpg" alt="Image 2">
+                       <div class="image-text">Royaume-Uni</div>
+                 </div>
+                 <div class="slide ">
+                       <img src="images/japan1.jpg" alt="Image 3">
+                       <div class="image-text">Japan</div>
+                 </div>
+                 <div class="slide ">
+                       <img src="images/iceland1.jpg" alt="Image 4">
+                       <div class="image-text">Icelande</div>
+                 </div>
+              </div>
+           </div>
+        </div>
+        <div id="controls">
+           <label for="slide1"></label>
+           <label for="slide2"></label>
+           <label for="slide3"></label>
+           <label for="slide4"></label>
+        </div>
+        <div id="bullets">
+           <label for="slide1"></label>
+           <label for="slide2"></label>
+           <label for="slide3"></label>
+           <label for="slide4"></label>
+        </div>
+     </div>
+        
+        </section>
+   
+    <div id="Circuits">
+        <div class="circ-title">
+            <div class="heading">
+                <h2>Circuits</h2>
+             </div>
+        </div>
+        <div class="cards">
+            <div class="card ">
+                <div class="p-img">
+                    <img src="images/c1.png" alt="">
+                </div>
+                <h3>
+                        Planifier et Partir
+                </h3>  
+                <p>Confiez-nous vos rêves d'évasion, que ce soit en famille ou entre amis.
+                     Nous sommes là pour transformer vos aspirations en réalité, 
+                     en trouvant la formule parfaite qui comblera toutes vos attentes.
+                </p>
+            </div>
+            <div class="card ">
+                <div class="p-img">
+                    <img src="images/c2.png" alt="">
+                </div>
+                <h3>
+                    Organiser une Aventure
+                </h3>  
+                <p>
+                    Faites appel à l'expertise de nos spécialistes chevronnés, chacun étant un fin connaisseur de sa destination.
+                    Ils seront vos précieux guides tout au long de votre voyage, 
+                    veillant à ce que chaque moment soit une expérience mémorable.
+                </p>
+            </div>
+            <div class="card ">
+                <div class="p-img">
+                    <img src="images/c3.png" alt="">
+                </div>
+                <h3>
+                    Voyage Culinaire
+                </h3>  
+                <p>
+                    Votre sécurité et sérénité sont notre priorité absolue à chaque étape de votre voyage. 
+                    Nous nous engageons à vous garantir une expérience gastronomique exceptionnelle, 
+                    tout en veillant à votre bien-être et à votre confort.
+                </p>
+            </div>
+        </div> 
+        <div class="cards2">
+            <div class="card grid4">
+                <div class="content">
+                    <h3>
+                        Explorer en Famille
+                    </h3>  
+                    <p>
+                        Laissez-nous vous guider vers des destinations captivantes, 
+                        où chaque membre de votre famille découvrira des expériences inoubliables,
+                        tissées de moments précieux.
+                    </p>
+                </div>
+                <div class="f-img">
+                    <img src="images/a1.jpg" alt="">
+                </div>
+            </div>
+            <div class="card grid4">
+                <div class="content">
+                    <h3>
+                        Évasion de s'évader
+                    </h3>  
+                    <p>
+                        Dans un monde trépidant, offrez-vous une parenthèse bien méritée. 
+                        Confiez-nous votre besoin d'évasion, nous ferons de votre rêve une réalité.
+                    </p>
+                </div>
+                <div class="f-img">
+                    <img src="images/a2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="Contacts" >
+        <div class="cont-title">
+            <div class="heading">
+                <h2>Contacter-nous</h2>
+            </div>
+        </div>
+        <div class="contact-section">
+            <p>Chez Voyage, nous valorisons le voyage en tant qu'expérience humaine qui élargit les horizons,
+                 favorise les connexions interculturelles et crée des souvenirs inoubliables.
+                  Notre équipe dévouée est à votre service pour rendre votre voyage inoubliable. Si vous avez des questions ou des besoins spécifiques,
+                   n'hésitez pas à nous contacter. Nous sommes impatients de vous accompagner dans cette aventure.
+            </p>
+            <p style="font-weight: bold; padding: 5px;">Pour nous joindre, veuillez utiliser les informations de contact ci-dessous :</p>
+            <form style="padding: 10px;">
+                <div class="in">
+                    <span class="nom">
+                        <label for="nom">Nom :</label>
+                        <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+                    </span>
+                    <span class="email">
+                        <label for="email">E-mail :</label>
+                        <input type="email" id="email" name="email" placeholder="Votre e-mail" required>
+                    </span>
+                </div>
+                <span class="button">
+                    <input type="submit" value="Submit" >
+                </span>
+            </form>
+        </div>        
+    </div>
+    <div id="footer">
+        <a href="#">
+           <span class="icon">
+            <img src="images/icon.png" style="width: auto; padding:20px;" alt="vcontact">
+           </span>
+        </a>
+        <h5 style="padding: 20px;">© 2023 VOYAGER-AVEC-NOUS.COM</h5>
+    </div>      
+</div>
+      
+</body>
+</html>
+
+
+    
